@@ -1,0 +1,106 @@
+.main-header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    min-height: 100vh;
+}
+.header-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+}
+.main-header h5 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.04rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 5px;
+}
+.main-header h1 {
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    text-transform: capitalize;
+    line-height: 115px;
+    color: #DCCA87;
+}
+.main-header p{
+    color: white;
+    margin: 2rem 0;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.04;
+    text-transform: capitalize;
+    line-height: 25px;
+
+}
+.header-img {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.header-img img {
+    width: 80%;
+}
+
+.custom-btn {
+    background-color: lightcoral;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    line-height: 25px;
+    font-size: 15px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+    .main-header {
+        flex-direction: column;
+    }
+    .main-header h1 {
+        font-size: 80px;
+    }
+    .header-img {
+        margin: 5rem 0 0 0;
+    }
+    .header-img img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .main-header {
+        padding: 4rem 2rem;
+    }
+    .main-header h1 {
+        font-size: 60px;
+        line-height: 87px;
+    }
+    .main-header p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main-header h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .main-header p {
+        font-size: 12px;
+    }
+}
