@@ -1,0 +1,61 @@
+.about-us {
+    position: relative;
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about {
+    position: absolute;
+    inset: 0;
+}
+.about img {
+    width: 391px;
+    height: 415px;
+    z-index: 0;
+}
+.about-content {
+    width: 100%;
+    z-index: 2;
+    color: white;
+}
+.paragraph {
+    color: white;
+}
+.about-details {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+.about-knife {
+    margin: 2rem 4rem;
+}
+.about-knife img {
+    height: 910px;
+}
+.about-history {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.about-details p,
+.about-history p {
+    margin: 2rem 0;
+    color: gray;
+}
