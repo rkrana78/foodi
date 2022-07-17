@@ -1,0 +1,29 @@
+.menu-item {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.menu-item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-tags {
+    width: 100%;
+    margin-top: 0.2rem;
+}
+.item-name {
+    flex: 1;
+}
+.item-dash {
+    width: 100px;
+    height: 1px;
+    background: goldenrod;
+    margin: 0 1rem;
+}
+.item-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

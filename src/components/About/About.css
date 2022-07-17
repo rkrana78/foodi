@@ -59,3 +59,32 @@
     margin: 2rem 0;
     color: gray;
 }
+
+
+@media screen and (min-width: 2000px) {
+    .about-knife img {
+        height: 1110px;
+    }
+    .about-content p,
+    .about-history {
+        margin: 4rem 0;
+    }
+}
+@media screen and (max-width: 900px) {
+    .about-content {
+        flex-direction: column;
+    }
+    .about-knife {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about img {
+        width: 80%;
+        height: 320px;
+    }
+    .about-knife img {
+        height: 610px;
+    }
+}

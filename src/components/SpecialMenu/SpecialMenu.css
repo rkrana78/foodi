@@ -1,0 +1,38 @@
+.special-menu {
+    flex-direction: column;
+    background: black;
+    color: aliceblue;
+}
+.special-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.wine-cocktail {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.special-menu h3{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+.wine-beer,
+.cocktail {
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+}
+.special-menu-img {
+    width: 410px;
+    margin: 0 2rem;
+}
+.special-menu-img img {
+    width: 100%;
+    height: auto;
+}
