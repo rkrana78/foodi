@@ -2,6 +2,7 @@
     flex-direction: column;
     background: black;
     color: aliceblue;
+    padding: 4rem 6rem;
 }
 .special-title {
     margin-bottom: 2rem;
